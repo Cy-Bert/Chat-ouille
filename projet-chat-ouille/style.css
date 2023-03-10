@@ -5,5 +5,9 @@
 
 .item{
     display:flex;
+    margin: 4rem 5rem;
+    border: 5px double rgb(97, 88, 88);
 }
+
+
 
