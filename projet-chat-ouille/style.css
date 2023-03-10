@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Acme', sans-serif;
     src: url(Acme-Regular.ttf);
+    font-family: 'Tilt Neon', cursive;
+    src: utl();
 }
 
 
@@ -23,6 +25,16 @@ h1{
     font-weight: 300;
 }
 /*BODY*/
+body{
+    font-family: , sans-serif;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .brush{
     height:300px;
@@ -50,42 +62,12 @@ h1{
 .item p, .item2 p {
     padding: 2rem;
 }
-   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.intro{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
+.product{
+    
 }
-
-
-
-
-
-
-
-
-
+   
+/*FOOTER*/
 
 footer{
     text-align: center;
