@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Acme', sans-serif;
+    src: url(Acme-Regular.ttf);
 }
 
 
@@ -18,6 +18,9 @@
 
 h1{
     padding: 7rem;
+    font-family: Acme, sans-serif;
+    font-size: 3em;
+    font-weight: 300;
 }
 /*BODY*/
 
