@@ -20,10 +20,62 @@
     padding: 2rem;
 }
 
-.item p, .item2 p  {
+.item p, .item2 p {
     padding: 2rem;
 }
    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+
+}
+
+footer img {
+    padding: 2rem;
+    
+}
+
+
+
+.social{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
