@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Acme', sans-serif;
+    src: url(Acme-Regular.ttf);
+}
+
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    clip-path: ellipse(50% 50%);
+    height: 400px;
+}
+
+h1{
+    padding: 7rem;
+    font-family: Acme, sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+}
+/*BODY*/
+
 .brush{
     height:300px;
     width: 380px;
@@ -19,6 +45,7 @@
     margin: 4rem 5rem;
     padding: 2rem;
 }
+
 
 .item p, .item2 p {
     padding: 2rem;
