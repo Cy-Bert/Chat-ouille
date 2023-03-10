@@ -6,8 +6,24 @@
 .item{
     display:flex;
     margin: 4rem 5rem;
+    align-items: center;
     border: 5px double rgb(97, 88, 88);
+    padding: 2rem;
 }
+
+.item2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 5px double rgb(97, 88, 88);
+    margin: 4rem 5rem;
+    padding: 2rem;
+}
+
+.item p, .item2 p  {
+    padding: 2rem;
+}
+   
 
 
 
