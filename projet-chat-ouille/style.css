@@ -1,8 +1,25 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
 /*HEADER*/
 
-.logo{
-    border-radius: 70%;
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+.logo{
+    clip-path: ellipse(50% 50%);
+    height: 400px;
+}
+
+h1{
+    padding: 7rem;
+}
+/*BODY*/
 
 .brush{
     height:300px;
