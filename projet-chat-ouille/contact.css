@@ -1,64 +1,78 @@
 @font-face {
-    font-family: "Acme", sans-serif;
-    src: url(Acme-Regular.ttf);
-    font-family: "Tilt", cursive;
-    src: url(TiltNeon-Regular-VariableFont_XROTYROT.ttf);
-  }
-  
-  :root {
-    --Acme: "Acme", sans-serif;
-    --Tilt: "Tilt", cursive;
-  }
-  
-  /*HEADER*/
-  
-  .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4rem 3rem;
-    background-color: #e9d7be;
-  }
-  
-  .logo {
-    clip-path: ellipse(50% 50%);
-    height: 400px;
-  }
-  
-  h1 {
-    padding: 7rem;
-    font-family: Acme, sans-serif;
-    font-size: 3em;
-    font-weight: 300;
-  }
-  
- 
-  
-  /*FOOTER*/
-  
-  footer {
-    text-align: center;
-    background-color: #e9d7be;
-  }
-  
-  footer img {
-    padding: 2rem;
-  }
-  
-  footer img:hover {
-    transform: scale(2);
-  }
-  
-  .social {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  font-family: "Acme", sans-serif;
+  src: url(Acme-Regular.ttf);
+  font-family: "Tilt", cursive;
+  src: url(TiltNeon-Regular-VariableFont_XROTYROT.ttf);
+}
+
+:root {
+  --Acme: "Acme", sans-serif;
+  --Tilt: "Tilt", cursive;
+}
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4rem 3rem;
+  background-color: #e9d7be;
+}
+
+.logo {
+  clip-path: ellipse(50% 50%);
+  height: 400px;
+}
+
+h1 {
+  padding: 7rem;
+  font-family: Acme, sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+/* BODY */
+
+body {
+  font-family: Tilt, cursive;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.champ {
+  margin: 15px 0 0 0;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  background-color: #e9d7be;
+}
+
+footer img {
+  padding: 2rem;
+}
+
+footer img:hover {
+  transform: scale(2);
+}
+
+.social {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
