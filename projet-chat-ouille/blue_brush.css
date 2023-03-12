@@ -38,6 +38,28 @@ body {
   font-family: Tilt, cursive;
 }
 
+.blue_brush{
+  height: 350px;
+  width: 300px; 
+}
+
+.item{
+  display: flex;
+  margin: 8rem 20rem;
+  width: 900px;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 5px double rgb(97, 88, 88);
+  padding: 3rem;
+
+}
+
+.description{
+  padding: 4rem;
+  text-align: justify;
+}
+
+
 /*FOOTER*/
 
 footer {
