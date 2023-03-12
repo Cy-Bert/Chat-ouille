@@ -47,8 +47,9 @@ body {
 
 
 h2{
-    margin-top: 4rem;
-    text-transform: uppercase;
+  margin-top: 15rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
 }
 
 .brush {
@@ -68,6 +69,7 @@ h2{
   padding: 2rem;
   border: 5px double rgb(97, 88, 88);
   width: 1000px;
+  background-color: #e9d7be;
 }
 
 .item2 {
@@ -78,6 +80,7 @@ h2{
   margin: 4rem 5rem;
   padding: 2rem;
   width: 1000px;
+  background-color: #e9d7be;
 }
 
 .item h2,
@@ -108,6 +111,8 @@ footer {
   text-align: center;
   background-color: #e9d7be;
   padding: 2rem;
+  margin-top: 3rem;
+  border-top: 2px solid rgb(97, 88, 88)
 }
 
 footer img {
