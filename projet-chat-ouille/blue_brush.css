@@ -45,7 +45,7 @@ body {
 
 .item{
   display: flex;
-  margin: 8rem 20rem;
+  margin: 8rem 17rem;
   width: 900px;
   flex-direction: row-reverse;
   align-items: center;
