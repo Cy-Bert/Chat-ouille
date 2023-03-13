@@ -44,7 +44,8 @@ body {
   cursor: url(images/cat_cursor.svg), pointer;
 }
 
-a {
+a,
+.bouton {
   cursor: url(images/cursor_a.svg), pointer;
 }
 
@@ -63,8 +64,7 @@ a {
   margin: 15px;
 }
 
-.champ,
-.bouton {
+.champ {
   margin: 15px 0 0 0;
 }
 
@@ -76,7 +76,7 @@ span {
   color: red;
 }
 
-.bouton:hover {
+.plop:hover {
   transform: scale(1.1);
 }
 
