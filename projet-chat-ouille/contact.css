@@ -63,7 +63,8 @@ a {
   margin: 15px;
 }
 
-.champ {
+.champ,
+.bouton {
   margin: 15px 0 0 0;
 }
 
@@ -73,6 +74,10 @@ a {
 
 span {
   color: red;
+}
+
+.bouton:hover {
+  transform: scale(1.1);
 }
 
 /*FOOTER*/
