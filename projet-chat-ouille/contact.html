@@ -39,29 +39,39 @@
       <h2>Formulaire de Contact</h2>
     </div>
     <form class="formulaire">
-      <label class="champ" for="name">Nom</label
-      ><input id="name" type="text" placeholder="Entrez votre nom" />
-      <label class="champ" for="mail">Mail</label
-      ><input id="mail" type="email" placeholder="Entrez votre mail" />
+      <label class="champ" for="name">Nom <span>*</span></label
+      ><input id="name" type="text" placeholder="Entrez votre nom" size="50" required title="Entrez votre nom"/>
+
+      <label class="champ" for="mail">Mail <span>*</span></label
+      ><input id="mail" type="email" placeholder="Entrez votre mail" required size="50"
+      title="Entrez votre mail"
+       />
+
       <label class="champ" for="tel">Téléphone</label
-      ><input id="tel" type="tel" placeholder="Entrez votre Téléphone" />
-      <label class="champ" for="objet">Objet</label>
-      <select id="objet">
+      ><input id="tel" type="tel" placeholder="Entrez votre Téléphone" size="50" title="Entrez votre Téléphone"/>
+
+      <label class="champ" for="objet" >Objet </label>
+      <select id="objet" title="Selectionnez l'objet du message">
         <option value="renseignement">Renseignement</option>
         <option value="commande">Commande</option>
         <option value="sav">SAV</option>
         <option value="autre">Autre</option>
       </select>
-      <label class="champ" for="message">Message</label>
+
+      <label class="champ" for="message">Message <span>*</span></label>
       <textarea
         class="textarea"
         id="message"
         cols="50"
         rows="10"
         placeholder="Entrez votre message"
+        required
+        title="Entrez votre message"
       ></textarea>
-      <input class="champ" type="submit" value="Envoyer" />
+      <input class="champ" type="submit" value="Envoyer" title="Envoyer votre message" />
+      <p><span>*</span> Champs requis</p>
     </form>
+
 
     <footer>
       <p>Contactez moi pour plus d'infos :</p>
