@@ -16,7 +16,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2rem 6rem;;
+  padding: 2rem 6rem;
+  ;
   background-color: #e9d7be;
 }
 
@@ -38,6 +39,15 @@ body {
   font-family: Tilt, cursive;
 }
 
+
+body {
+  cursor: url(images/cat_cursor.svg), pointer;
+}
+
+a {
+  cursor: url(images/cursor_a.svg), pointer;
+}
+
 .intro {
   display: flex;
   justify-content: center;
@@ -45,6 +55,7 @@ body {
   align-items: center;
   margin-top: 4rem;
 }
+
 .formulaire {
   display: flex;
   flex-direction: column;
@@ -55,12 +66,13 @@ body {
 .champ {
   margin: 15px 0 0 0;
 }
+
 .textarea {
   resize: none;
 }
 
-span{
-  color: red ;
+span {
+  color: red;
 }
 
 /*FOOTER*/

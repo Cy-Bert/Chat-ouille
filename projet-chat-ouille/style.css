@@ -10,6 +10,13 @@
   --Tilt: "Tilt", cursive;
 }
 
+body {
+  cursor: url(images/cat_cursor.svg), pointer;
+}
+
+a {
+  cursor: url(images/cursor_a.svg), pointer;
+}
 
 /*HEADER*/
 
