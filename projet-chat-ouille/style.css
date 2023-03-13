@@ -10,7 +10,9 @@
   --Tilt: "Tilt", cursive;
 }
 
+
 /*HEADER*/
+
 
 .header {
   display: flex;
@@ -18,6 +20,7 @@
   align-items: center;
   padding: 2rem 6rem;
   background-color: #e9d7be;
+  
 }
 
 .logo {
