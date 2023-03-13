@@ -59,6 +59,10 @@ body {
   resize: none;
 }
 
+span{
+  color: red ;
+}
+
 /*FOOTER*/
 
 footer {
