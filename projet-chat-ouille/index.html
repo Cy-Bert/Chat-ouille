@@ -8,21 +8,28 @@
   <title>Les créa's de Vincent</title>
   <link href="https://fonts.bunny.net/css?family=acme:400" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @font-face {
+      font-family: "tilt";
+      src: url(font/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+    }
+  </style>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
             notre_beige: "#e9d7be",
-            
+
           },
-          fontFamily:{
+          fontFamily: {
             acme: ["Acme, sans-serif"],
-          } 
-            
-          },
+            tilt: ["Tilt, cursive"],
+          }
+
         },
-      }    ;
+      },
+    };
   </script>
 </head>
 
@@ -30,41 +37,49 @@
   <header>
     <div class="flex flex-row items-center px-12 py-8 bg-notre_beige">
       <a href="index.html"><img class="h-96" src="images/logo.png" alt="Logo Les Créa's de Vincent" /></a>
-      <h1 class="p-28 text-5xl  ">Les créa's de Vincent</h1>
+      <h1 class="p-28 text-5xl font-['acme'] ">Les créa's de Vincent</h1>
     </div>
 
-    <nav>
-      <ul>
-        <li class="menu"><a href="index.html">Accueil</a></li>
-       
+    <nav
+      class="bg-notre_beige decoration-black text-2xl relative block mr-4 no-underline decoration-black hover:bg-notre_beige">
+      <ul
+        class="m-0 p-0 list-none flex justify-center items-center relative block mr-4 no-underline decoration-black hover:bg-notre_beige">
+        <li class="relative block mr-4 no-underline decoration-black hover:bg-notre_beige"><a
+            href="index.html">Accueil</a></li>
+
         <li class="dropdown">
           <a href="#">Produit</a>
-          <ul class="dropdown-menu">
-            <li class="menu" ><a href="blue_brush.html">Blue Brush</a></li>
-            <li class="menu" ><a href="fluffy_brush.html">Fluffy Brush</a></li>
-            <li class="menu" ><a href="tornado_brush.html">Tornado Brush</a></li>
+          <ul class="hidden absolute w-56 top-4/4 ">
+            <li class="relative block mr-4 no-underline decoration-black hover:bg-notre_beige"><a href="index.html"><a
+                  href="blue_brush.html">Blue Brush</a></li>
+            <li class="relative block mr-4 no-underline decoration-black hover:bg-notre_beige"><a href="index.html"><a
+                  href="fluffy_brush.html">Fluffy Brush</a></li>
+            <li class="relative block mr-4 no-underline decoration-black hover:bg-notre_beige"><a href="index.html"><a
+                  href="tornado_brush.html">Tornado Brush</a></li>
           </ul>
         </li>
-        <li class="menu" ><a href="contact.html" >Contact</a></li>
+        <li class="relative block mr-4 no-underline decoration-black hover:bg-notre_beige"><a href="index.html"><a
+              href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
   </header>
 
-  <div class="intro">
-    <h2>Les brosses Chat'ouille®</h2>
+  <div class="flex justify-center flex-col items-center font-[tilt]">
+    <h2 class="mt-40 mb-16 text-3xl uppercase">Les brosses Chat'ouille®
+    </h2>
 
 
     <p>
       Spécialiste dans la création de
-      <strong> brosse massante pour chat </strong> , je vous propose une gamme
+      <strong class="font-fine"> brosse massante pour chat </strong> , je vous propose une gamme
       de brosse à chatouilles.
     </p>
   </div>
 
-  <div class="product">
-    <div class="item">
-      <a href="blue_brush.html"><img class="brush" src="images/blue_brush.png" alt="Photo de la Blue Brush" /></a>
+  <div class="flex flex-col items-center m-auto">
+    <div class="flex items-center mx-20 my-16 p-8 border-double">
+      <a href="blue_brush.html"><img class="h-72" src="images/blue_brush.png" alt="Photo de la Blue Brush" /></a>
       <div class="description">
         <h2>La Blue Brush</h2>
         <p>
@@ -113,8 +128,9 @@
     </div>
 
     <div class="social">
-      <a  href="http://facebook.com/chatouille" target="_blank"><img src="images/fb.svg" alt="logo Facebook" /></a>
-      <a href="http://etsy.com/fr/shop/chatouille" target="_blank"><img src="images/etsy.svg" alt="logo etsy" height="40" width="40" />
+      <a href="http://facebook.com/chatouille" target="_blank"><img src="images/fb.svg" alt="logo Facebook" /></a>
+      <a href="http://etsy.com/fr/shop/chatouille" target="_blank"><img src="images/etsy.svg" alt="logo etsy"
+          height="40" width="40" />
       </a>
     </div>
     <p class="registred">© 2023 - Chat'ouille - Tous droits réservés</p>

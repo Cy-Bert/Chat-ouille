@@ -66,40 +66,8 @@ a {
 /*HEADER*/
 
 
-
-h1 {
-  padding: 7rem;
-  font-size: 3em;
-  font-weight: 300;
-}
-
 /*MENU*/
-nav {
-  background-color: var(--notre-beige);
-  color: black;
-  font-size: 1.5em;
-}
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav ul li {
-  position: relative;
-
-}
-
-nav ul li a {
-  display: block;
-  margin: 0 1rem 0 0;
-  text-decoration: none;
-  color: black;
-}
 
 nav ul li:hover {
   background-color: var(--notre-beige);
@@ -185,19 +153,6 @@ strong {
   font-weight: 100;
 }
 
-.intro {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-h2 {
-  margin-top: 10rem;
-  margin-bottom: 4rem;
-  text-transform: uppercase;
-}
 
 .brush {
   height: 300px;
@@ -250,9 +205,6 @@ h2 {
 }
 
 .product {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 1265px;
   margin: auto;
 }
