@@ -66,22 +66,9 @@ a {
 /*HEADER*/
 
 
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 2rem 6rem;
-  background-color: var(--notre-beige)
-}
-
-.logo {
-  clip-path: ellipse(50% 50%);
-  height: 400px;
-}
 
 h1 {
   padding: 7rem;
-  font-family: Acme, sans-serif;
   font-size: 3em;
   font-weight: 300;
 }
